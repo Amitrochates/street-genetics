@@ -66,7 +66,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
             />
             Collections
           </Link>
-          <a
+          {/* <a
             href="/about"
             className="flex items-center gap-2 sm:gap-3 p-2 sm:p-3 rounded-md text-sm sm:text-md font-medium text-white hover:bg-white hover:text-black transition-all"
           >
@@ -87,14 +87,14 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
               className="h-4 w-4 sm:h-5 sm:w-5"
             />
             Contact
-          </a>
+          </a> */}
         </nav>
 
         {/* Footer (Sign In Button) */}
         <div className="mt-auto px-3 sm:px-4 py-4 border-t border-gray-700">
-          <button className="w-full py-2 text-sm sm:text-md rounded-full bg-gray-300 text-[#434242] hover:bg-gray-400 transition-all">
+          {/* <button className="w-full py-2 text-sm sm:text-md rounded-full bg-gray-300 text-[#434242] hover:bg-gray-400 transition-all">
             Sign In
-          </button>
+          </button> */}
         </div>
       </div>
     </>

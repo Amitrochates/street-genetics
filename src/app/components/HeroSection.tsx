@@ -14,7 +14,7 @@ export default function HeroSection() {
       {/* "Shop Now" Button */}
       <div className="absolute bottom-12 flex justify-center px-4 md:px-8">
         <a
-          href="#shop"
+          href="/collections"
           className="px-8 py-3 text-white text-sm sm:text-lg md:text-xl font-semibold rounded-full border-2 border-white
           transition-all duration-300 ease-in-out hover:bg-white hover:text-black"
         >

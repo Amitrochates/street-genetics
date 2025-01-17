@@ -18,7 +18,7 @@ export const AboutHeader = ({ svgPath }:{svgPath:string}) => {
 
 
   return (
-    <div className="w-full flex items-center justify-center">
+    <div className="w-full mt-12 flex items-center justify-center">
       <div>
       <Image 
             src={InitialSVG} 
