@@ -1,0 +1,109 @@
+[debug] [2025-01-16T14:35:59.381Z] ----------------------------------------------------------------------
+[debug] [2025-01-16T14:35:59.383Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-01-16T14:35:59.383Z] CLI Version:   13.29.1
+[debug] [2025-01-16T14:35:59.383Z] Platform:      win32
+[debug] [2025-01-16T14:35:59.383Z] Node Version:  v22.9.0
+[debug] [2025-01-16T14:35:59.383Z] Time:          Thu Jan 16 2025 20:05:59 GMT+0530 (India Standard Time)
+[debug] [2025-01-16T14:35:59.383Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-16T14:35:59.390Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-16T14:35:59.390Z] > authorizing via signed-in user (02.shlokagrawal@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Shlok\cohort\sst\street-genetics-frontend
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2025-01-16T14:36:10.962Z] Checked if tokens are valid: true, expires at: 1737041402587
+[debug] [2025-01-16T14:36:10.962Z] Checked if tokens are valid: true, expires at: 1737041402587
+[debug] [2025-01-16T14:36:10.963Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2025-01-16T14:36:10.963Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"street-genetics-frontend","name":"street-genetics-frontend"}
+[debug] [2025-01-16T14:36:13.205Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2025-01-16T14:36:13.205Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/cp.8388698710881126431"}
+[debug] [2025-01-16T14:36:13.206Z] Checked if tokens are valid: true, expires at: 1737041402587
+[debug] [2025-01-16T14:36:13.206Z] Checked if tokens are valid: true, expires at: 1737041402587
+[debug] [2025-01-16T14:36:13.206Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8388698710881126431 [none]
+[debug] [2025-01-16T14:36:14.916Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8388698710881126431 200
+[debug] [2025-01-16T14:36:14.916Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8388698710881126431 {"name":"operations/cp.8388698710881126431"}
+[debug] [2025-01-16T14:36:15.426Z] [Project Creation Poller] Retrying task index 0
+[debug] [2025-01-16T14:36:15.426Z] Checked if tokens are valid: true, expires at: 1737041402587
+[debug] [2025-01-16T14:36:15.426Z] Checked if tokens are valid: true, expires at: 1737041402587
+[debug] [2025-01-16T14:36:15.426Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8388698710881126431 [none]
+[debug] [2025-01-16T14:36:16.024Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8388698710881126431 200
+[debug] [2025-01-16T14:36:16.024Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8388698710881126431 {"name":"operations/cp.8388698710881126431","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true}}
+[debug] [2025-01-16T14:36:17.026Z] [Project Creation Poller] Retrying task index 0
+[debug] [2025-01-16T14:36:17.027Z] Checked if tokens are valid: true, expires at: 1737041402587
+[debug] [2025-01-16T14:36:17.027Z] Checked if tokens are valid: true, expires at: 1737041402587
+[debug] [2025-01-16T14:36:17.027Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8388698710881126431 [none]
+[debug] [2025-01-16T14:36:17.656Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8388698710881126431 200
+[debug] [2025-01-16T14:36:17.656Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8388698710881126431 {"name":"operations/cp.8388698710881126431","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"477096227337","projectId":"street-genetics-frontend","lifecycleState":"ACTIVE","name":"street-genetics-frontend","createTime":"2025-01-16T14:36:15.777296Z"}}
+[debug] [2025-01-16T14:36:17.665Z] Checked if tokens are valid: true, expires at: 1737041402587
+[debug] [2025-01-16T14:36:17.665Z] Checked if tokens are valid: true, expires at: 1737041402587
+[debug] [2025-01-16T14:36:17.665Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/street-genetics-frontend:addFirebase [none]
+[debug] [2025-01-16T14:36:19.487Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/street-genetics-frontend:addFirebase 403
+[debug] [2025-01-16T14:36:19.487Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/street-genetics-frontend:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-01-16T14:36:19.488Z] Request to https://firebase.googleapis.com/v1beta1/projects/street-genetics-frontend:addFirebase had HTTP Error: 403, The caller does not have permission
+[debug] [2025-01-16T14:36:19.748Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/street-genetics-frontend:addFirebase had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Shlok\AppData\Roaming\nvm\v22.9.0\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\Shlok\AppData\Roaming\nvm\v22.9.0\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.
+[debug] [2025-01-16T14:37:06.769Z] ----------------------------------------------------------------------
+[debug] [2025-01-16T14:37:06.772Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-01-16T14:37:06.772Z] CLI Version:   13.29.1
+[debug] [2025-01-16T14:37:06.772Z] Platform:      win32
+[debug] [2025-01-16T14:37:06.772Z] Node Version:  v22.9.0
+[debug] [2025-01-16T14:37:06.772Z] Time:          Thu Jan 16 2025 20:07:06 GMT+0530 (India Standard Time)
+[debug] [2025-01-16T14:37:06.772Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-16T14:37:06.822Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-16T14:37:06.823Z] > authorizing via signed-in user (02.shlokagrawal@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Shlok\cohort\sst\street-genetics-frontend
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-01-16T14:37:11.838Z] Using project from CLI flag: street-genetics
+[debug] [2025-01-16T14:37:11.839Z] Checked if tokens are valid: true, expires at: 1737041402587
+[debug] [2025-01-16T14:37:11.839Z] Checked if tokens are valid: true, expires at: 1737041402587
+[debug] [2025-01-16T14:37:11.840Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/street-genetics [none]
+[debug] [2025-01-16T14:37:12.384Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/street-genetics 403
+[debug] [2025-01-16T14:37:12.384Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/street-genetics {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-01-16T14:37:12.385Z] Request to https://firebase.googleapis.com/v1beta1/projects/street-genetics had HTTP Error: 403, The caller does not have permission
+[debug] [2025-01-16T14:37:12.645Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/street-genetics had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Shlok\AppData\Roaming\nvm\v22.9.0\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\Shlok\AppData\Roaming\nvm\v22.9.0\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to get Firebase project street-genetics. Please make sure the project exists and your account has permission to access it.
