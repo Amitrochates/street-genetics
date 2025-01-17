@@ -1,19 +1,11 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Belleza } from "next/font/google";
+import { Belleza } from "next/font/google";
 import {CartProvider} from "./context/CartContext"
 import "./globals.css";
 import ToastProvider from "./components/ToastProvider"
 import Navbar from './components/Navbar';
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 const belleza = Belleza({
   variable: "--font-belleza",
   subsets: ["latin"],
